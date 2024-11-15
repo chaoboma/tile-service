@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: application
+
+  main:
+    allow-bean-definition-overriding: true
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: true
+
+logging:
+  level:
+    com.application.*: error
+
+swagger:
+  host: localhost:8080
+
+
+terrain:
+  directory: D:\terrain\
+
+image:
+  directory: D:\data\
